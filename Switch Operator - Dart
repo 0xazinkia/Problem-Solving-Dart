@@ -1,0 +1,12 @@
+void main() {
+  int a = 10, b = 10, c;
+  String symbol = '-';
+  switch (symbol) {
+    case '+':
+      print(a + b);
+      break;
+    case '-':
+      print(a - b);
+      break;
+  }
+}
