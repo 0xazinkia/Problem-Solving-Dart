@@ -1,5 +1,5 @@
 void main() {
-  int a = 10, b = 10, c;
+  int a = 10, b = 10;
   String symbol = '-';
   switch (symbol) {
     case '+':
