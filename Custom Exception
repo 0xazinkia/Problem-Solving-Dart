@@ -1,0 +1,26 @@
+void main(){
+  try {
+    xmpl(-5);
+  } 
+  catch (e) {
+    print(e);
+  }
+}
+
+class customExcention implements Exception{
+  lessThanZero(){
+    return "This is lessThanZero Exception"; 
+  }
+  greaterThanZero(){
+    return "This is greaterThanZero Exception"; 
+  }
+}
+
+xmpl(var c){
+  if(c>0){
+    throw customExcention().greaterThanZero();
+  }
+  else{
+    throw customExcention().lessThanZero();
+  }
+}
